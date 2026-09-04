@@ -29,7 +29,7 @@ This study analyzes longitudinal clinical trial data ($N = 1,400$ total observat
 
 A. Two-Sample Independent T-Test (Final HbA1c Comparison)
 - Objective: Test if mean HbA1c differs between Treatment (7.36%) and Placebo (8.14%).
-- Result: t = -6.200, p = 2.055 \times 10^{-9}$
+- Result: t = -6.200, p = 2.055 × 10⁻⁹
 - Conclusion: Reject $H_0$. The treatment group experienced a statistically significant lower HbA1c level compared to placebo.
 
 B. OLS Two-Way ANOVA Model (hba1c ~ time + group_treatment)
