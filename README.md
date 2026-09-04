@@ -1,8 +1,8 @@
-# 🩸 Diabetes Medication Clinical Trial — Exploratory Data Analysis & Statistical Testing
+#  Diabetes Medication Clinical Trial — Exploratory Data Analysis & Statistical Testing
 
 An end-to-end data analysis project investigating the efficacy, demographic variations, and safety profile of a novel diabetes medication vs. placebo over a 24-week clinical trial.
 
-## 📌 Executive Summary
+##  Executive Summary
 
 This study analyzes longitudinal clinical trial data ($N = 1,400$ total observations) to evaluate whether a new diabetes medication outperforms a placebo in lowering HbA1c levels (glycated hemoglobin).
 
@@ -13,12 +13,12 @@ This study analyzes longitudinal clinical trial data ($N = 1,400$ total observat
 - Demographics: Medication efficacy remained consistent across age groups (Middle-aged vs. Older adults), with no notable interaction between diabetes duration and HbA1c reduction.
 - Safety & Tolerability: Reported adverse events (Fatigue, Nausea, Headache, Dizziness) were evenly distributed between treatment and placebo arms ($p = 0.327$), indicating a strong safety profile not driven by medication toxicity.
 
-## 🛠️ Data Stack & Libraries
+##  Data Stack & Libraries
 
 - Language: Python 3.xData Processing: pandas, numpyData Visualization: matplotlib, seabornStatistical 
 - Inference & Modeling: scipy.stats (T-test, Chi-Square), statsmodels (Two-Way OLS / ANOVA)
 
-## 🔬 Analysis Pipeline & Methodology
+##  Analysis Pipeline & Methodology
 
 1. Data Cleaning & Feature Engineering
 - Missing Value Handling: Profiling non-null entries and removing incomplete adverse event tracking entries.
@@ -43,7 +43,7 @@ C. Chi-Square Test of Independence (Adverse Event Profiling)
 D. Correlation Analysis (Disease Duration vs. Response)Pearson Correlation ($r$): $-0.0109$
 - Conclusion: Zero linear relationship between years living with diabetes and degree of HbA1c reduction.
 
-## 📊 Key Visualizations
+##  Key Visualizations
 
 1. Longitudinal Trajectory Plot (lineplot): Illustrates the trajectory of HbA1c over 24 weeks, highlighting rapid early reduction in the treatment group.
 2. Distribution Boxplots (boxplot): Compares final HbA1c levels and evaluates age-group variance.
