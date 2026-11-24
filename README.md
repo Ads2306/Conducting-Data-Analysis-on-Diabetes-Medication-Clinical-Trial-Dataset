@@ -15,7 +15,8 @@ This study analyzes longitudinal clinical trial data ($N = 1,400$ total observat
 
 ##  Data Stack & Libraries
 
-- Language: Python 3.xData Processing: pandas, numpyData Visualization: matplotlib, seabornStatistical 
+- Language: Python 3.xData Processing: pandas, numpy
+- Data Visualization: matplotlib, seabornStatistical 
 - Inference & Modeling: scipy.stats (T-test, Chi-Square), statsmodels (Two-Way OLS / ANOVA)
 
 ##  Analysis Pipeline & Methodology
